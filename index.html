@@ -105,7 +105,7 @@
       $.ajax({
         type: "GET",
         //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/1QdUvqYlp9xqEjrqINOsUSIpoR6ttJ-Im2QpUxHdqah8/gviz/tq?tqx=out:csv&sheet=spooky_sites',
+        url: 'https://docs.google.com/spreadsheets/d/1QdUvqYlp9xqEjrqINOsUSIpoR6ttJ-Im2QpUxHdqah8/gviz/tq?tqx=out:csv&sheet=GIS_Haunted_Places',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
